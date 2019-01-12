@@ -1,0 +1,129 @@
+body {
+  background: #2176ff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  margin: 0;
+}
+
+.App h1 {
+  font-size: 40px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+.header {
+  background: #31393c;
+  overflow: hidden;
+}
+
+.login-page {
+  border: 5px solid black;
+  padding: 80px;
+  background: #33a1fd;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  margin-top: 65px;
+  font-size: 25px;
+  box-shadow: 15px 15px;
+}
+
+.bankaccount-page {
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+  width: 70%;
+  margin-top: 5px;
+  font-size: 25px;
+}
+
+.depositBtn {
+  width: 50%;
+  font-size: 25px;
+  background-color: #31393c;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.withdrawBtn {
+  width: 50%;
+  font-size: 25px;
+  background-color: #31393c;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.logoutBtn {
+  width: 80%;
+  font-size: 25px;
+  background-color: #f79824;
+  color: black;
+  padding: 14px 20px;
+  margin-top: 70px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.deposit-form {
+  width: 50%;
+  padding: 12px 0;
+  margin: 10px 0;
+  display: inline-block;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.withdraw-form {
+  width: 50%;
+  padding: 12px 0;
+  margin: 10px 0;
+  display: inline-block;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 0;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input[type="password"],
+select {
+  width: 100%;
+  padding: 12px 0;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  font-size: 25px;
+  background-color: #31393c;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
