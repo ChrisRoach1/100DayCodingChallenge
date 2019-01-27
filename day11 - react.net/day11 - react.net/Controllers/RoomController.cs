@@ -32,9 +32,9 @@ namespace day11___react.net.Controllers
             return db.GetRoomInfo(id);
         }
 
-        [HttpPut]
+        [HttpPost]
         [Route("api/Rooms/Edit")]
-        public int Edit(Rooms room)
+        public int Edit([FromBody]Rooms room)
         {
             return db.UpdateRoom(room);
         }
