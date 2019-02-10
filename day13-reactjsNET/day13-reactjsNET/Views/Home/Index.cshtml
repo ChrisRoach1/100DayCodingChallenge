@@ -1,0 +1,14 @@
+﻿@using day13_reactjsNET.Models;
+@using React.Web.Mvc;
+    @{
+        ViewBag.Title = "Home Page";
+    }
+
+@{ 
+    var rooms = (List<room>)ViewBag.rooms;
+}
+
+@Html.React("Hello", new
+{
+    roomList = rooms
+})

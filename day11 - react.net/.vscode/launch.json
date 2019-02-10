@@ -5,19 +5,12 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "chrome",
-      "request": "launch",
-      "name": "Launch Chrome",
-      "url": "https://localhost:44329/",
-      "webRoot": "${workspaceFolder}"
-    },
-    {
       "name": ".NET Core Launch (web)",
       "type": "coreclr",
       "request": "launch",
       "preLaunchTask": "build",
-      "program": "${workspaceFolder}/bin/Debug/<target-framework>/<project-name.dll>",
-      "args": ["urls=https://localhost:44329/"],
+      "program": "${workspaceFolder}/bin/Debug/net461/day11 - react.net.exe",
+      "args": ["urls=https://localhost:5001/"],
       "cwd": "${workspaceFolder}",
       "stopAtEntry": false,
       "launchBrowser": {
